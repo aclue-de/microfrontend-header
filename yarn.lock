@@ -2,6 +2,24 @@
 # yarn lockfile v1
 
 
+"@aclue-de/microfrontend-startpage@^1.0.10":
+  version "1.0.10"
+  resolved "https://npm.pkg.github.com/download/@aclue-de/microfrontend-startpage/1.0.10/c011e829bea16e8fa4088528af0b71563863af0a69f381ec57bbc62c413eee6f#06e642f5278671b3df1a8b92cd2a9c0b5b48995d"
+  integrity sha512-TnJqzTTwk30y/K5XAacGr8SBWmHCv0LFwJ9fxWYJORFbtbHz2j4Yg8qDtIh9OMU4Q5h5438flOcCwmeQyA08Dw==
+  dependencies:
+    "@testing-library/jest-dom" "^5.11.4"
+    "@testing-library/react" "^11.1.0"
+    "@testing-library/user-event" "^12.1.10"
+    "@types/jest" "^26.0.15"
+    "@types/node" "^12.0.0"
+    "@types/react" "^17.0.0"
+    "@types/react-dom" "^17.0.0"
+    react "^17.0.2"
+    react-dom "^17.0.2"
+    react-scripts "4.0.3"
+    typescript "^4.1.2"
+    web-vitals "^1.0.1"
+
 "@babel/code-frame@7.10.4":
   version "7.10.4"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.10.4.tgz#168da1a36e90da68ae8d49c0f1b48c7c6249213a"
