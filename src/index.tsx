@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { App as Startpage } from "@aclue-de/microfrontend-startpage";
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Startpage />
   </React.StrictMode>,
   document.getElementById('root')
 );
