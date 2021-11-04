@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-// import { App as Startpage } from "@aclue-de/microfrontend-startpage";
+import {TestVertical} from '@aclue-de/microfrontend-test-vertical';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    {/* <Startpage /> */}
+    <TestVertical />
   </React.StrictMode>,
   document.getElementById('root')
 );
