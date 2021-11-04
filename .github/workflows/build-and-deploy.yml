@@ -25,15 +25,18 @@ jobs:
         run: |
           echo "//npm.pkg.github.com/:_authToken=${{ secrets.PAT }}" >> .npmrc
           echo "@aclue-de:registry=https://npm.pkg.github.com/" >> .npmrc
-          
+
       - name: Install
         run: yarn install
 
       - name: Test
         run: yarn test
 
-      - name: Pre Deploy
-        run: yarn predeploy
+      - name: Build
+        run: yarn build
 
       - name: Deploy
-        run: yarn deploy
+        uses: JamesIves/github-pages-deploy-action@4.1.5
+        with:
+          branch: gh-pages
+          folder: build
