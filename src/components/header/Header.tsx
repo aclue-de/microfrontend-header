@@ -59,7 +59,7 @@ export default function Header() {
     return (
         <header className={classes.oscHeader}>
             <div className={classes.oscLogo}>
-                <a href="#">
+                <a href="http://www.otto.de">
                     <img className={classes.ottoLogo} src={OttoLogo} alt="OTTO Supplier Connect" />
                 </a>
             </div>

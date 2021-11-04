@@ -5,8 +5,6 @@ import { StyledIconButton, StyledLink, StyledMenu, StyledMenuItem } from './Help
 
 export const HelpMenu: React.FC = () => {
     const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null)
-    const [showCreateIssue, setShowCreateIssue] = React.useState<boolean>(false)
-
     const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
         setAnchorEl(event.currentTarget)
     }
