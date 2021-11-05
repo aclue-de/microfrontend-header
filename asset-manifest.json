@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/microfrontend-header/static/js/main.b33cb869.chunk.js",
-    "main.js.map": "/microfrontend-header/static/js/main.b33cb869.chunk.js.map",
+    "main.js": "/microfrontend-header/static/js/main.fe5eaf36.chunk.js",
+    "main.js.map": "/microfrontend-header/static/js/main.fe5eaf36.chunk.js.map",
     "runtime-main.js": "/microfrontend-header/static/js/runtime-main.9d69599d.js",
     "runtime-main.js.map": "/microfrontend-header/static/js/runtime-main.9d69599d.js.map",
-    "static/js/2.7088ac28.chunk.js": "/microfrontend-header/static/js/2.7088ac28.chunk.js",
-    "static/js/2.7088ac28.chunk.js.map": "/microfrontend-header/static/js/2.7088ac28.chunk.js.map",
+    "static/js/2.469f9b9e.chunk.js": "/microfrontend-header/static/js/2.469f9b9e.chunk.js",
+    "static/js/2.469f9b9e.chunk.js.map": "/microfrontend-header/static/js/2.469f9b9e.chunk.js.map",
     "index.html": "/microfrontend-header/index.html",
-    "static/js/2.7088ac28.chunk.js.LICENSE.txt": "/microfrontend-header/static/js/2.7088ac28.chunk.js.LICENSE.txt",
+    "static/js/2.469f9b9e.chunk.js.LICENSE.txt": "/microfrontend-header/static/js/2.469f9b9e.chunk.js.LICENSE.txt",
     "static/media/ottologo.1fe07a8f.svg": "/microfrontend-header/static/media/ottologo.1fe07a8f.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.9d69599d.js",
-    "static/js/2.7088ac28.chunk.js",
-    "static/js/main.b33cb869.chunk.js"
+    "static/js/2.469f9b9e.chunk.js",
+    "static/js/main.fe5eaf36.chunk.js"
   ]
 }
