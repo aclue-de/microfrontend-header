@@ -23,7 +23,6 @@ const useStyles = makeStyles({
         width: '100%',
         display: 'flex',
         alignItems: 'center',
-        backgroundColor: 'white',
         borderBottom: '1px solid #f4f4f4',
         zIndex: 10000,
         boxShadow: '0px 4px 6px rgba(0, 0, 0, 0.12)',

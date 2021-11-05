@@ -1,0 +1,15 @@
+$color: white;
+$max-width: 1200px;
+
+body {
+  background: $color;
+
+  header {
+    background: $color;
+  }
+
+  .vertical {
+    margin: auto;
+    max-width: $max-width;
+  }
+}
