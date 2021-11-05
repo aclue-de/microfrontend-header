@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@aclue-de/microfrontend-test-vertical@^1.0.15":
-  version "1.0.15"
-  resolved "https://npm.pkg.github.com/download/@aclue-de/microfrontend-test-vertical/1.0.15/3bd931a633ec44b2648eb12e87fde95e93554b764b67dca0cd346060845d8453#dd7126be3ea4231c8d5598c0c98c09a83ab557db"
-  integrity sha512-5yaY7iMhIM7lCjsQTqGBjve/izlLitajTSpqnhTgZgnwtQbKBiGB158tCPDyy6PxgyXK+mtG95mSpN8OEXMxHQ==
+"@aclue-de/microfrontend-test-vertical@^1.0.30":
+  version "1.0.30"
+  resolved "https://npm.pkg.github.com/download/@aclue-de/microfrontend-test-vertical/1.0.30/7a9948bfaf8ebdc8dbaa45493f387b16dbf22be5e15d79b7c9c16784147fce85#a1eb9f99115d1555fbaa0aa64f6fac868a2a28a9"
+  integrity sha512-2JCXRmLgdg8qxE4HG6kEpVH8vnhXgRsKwfUsIW5x6B9sj9pSbkUKV0PcRbk+fdfW8lKm7gtLbTgU3fYr93HK7g==
   dependencies:
     "@testing-library/jest-dom" "^5.11.4"
     "@testing-library/react" "^11.1.0"
