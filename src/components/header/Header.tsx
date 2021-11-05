@@ -1,7 +1,7 @@
 import React from 'react'
 import { Typography, IconButton, makeStyles, withStyles, Tooltip, alpha } from '@material-ui/core'
 import { InsertEmoticon, AddCommentOutlined, NotificationsNone } from '@material-ui/icons'
-import OttoLogo from './../../images/ottologo.svg'
+import AclueLogo from './../../images/aclue-logo.png'
 import { HelpMenu } from '../help-menu/HelpMenu'
 import { AvatarMenu } from '../avatar-menu'
 
@@ -10,8 +10,8 @@ const StyledIconButton = withStyles(() => ({
         marginLeft: 'auto',
         marginRight: 6,
         '&:hover': {
-            backgroundColor: alpha('#d4021d', 0.04),
-            color: '#ba0019',
+            backgroundColor: alpha('#1976d2', 0.04),
+            color: '#1976d2',
         },
     },
 }))(IconButton)
@@ -30,7 +30,7 @@ const useStyles = makeStyles({
         height: '64px',
     },
     oscLogo: {
-        width: '120px',
+        width: '160px',
         paddingLeft: '24px',
         flexShrink: 0,
         display: 'flex',
@@ -60,12 +60,12 @@ export default function Header() {
     return (
         <header className={classes.oscHeader}>
             <div className={classes.oscLogo}>
-                <a href="http://www.otto.de">
-                    <img className={classes.ottoLogo} src={OttoLogo} alt="OTTO Supplier Connect" />
+                <a href="http://www.aclue.de">
+                    <img className={classes.ottoLogo} src={AclueLogo} alt="Aclue" />
                 </a>
             </div>
             <Typography variant="caption" className={classes.oscTitle}>
-                OTTO Supplier Connect
+                ACLUE Retail Customers
             </Typography>
             <div className={classes.oscHeaderIcons}>
                 <StyledIconButton

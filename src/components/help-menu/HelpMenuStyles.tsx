@@ -36,8 +36,8 @@ const StyledMenuItem = withStyles(() => ({
     root: {
         color: '#5b6c75',
         '&:hover': {
-            color: '#ba0019',
-            backgroundColor: alpha('#d4021d', 0.04),
+            color: '#1976d2',
+            backgroundColor: alpha('#1976d2', 0.04),
         },
     },
 }))(MenuItem)
@@ -47,8 +47,8 @@ const StyledIconButton = withStyles(() => ({
         marginLeft: 'auto',
         marginRight: 18,
         '&:hover': {
-            backgroundColor: alpha('#d4021d', 0.04),
-            color: '#ba0019',
+            backgroundColor: alpha('#1976d2', 0.04),
+            color: '#1976d2',
         },
     },
 }))(IconButton)

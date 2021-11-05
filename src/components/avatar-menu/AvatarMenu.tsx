@@ -13,7 +13,7 @@ const StyledMenu = withStyles({
             margin: 0,
             fontWeight: 'bold',
             fontSize: '16px',
-            color: '#5b6c75',
+            color: '#1976d2',
             padding: '12px',
         },
         '& hr': {
@@ -41,15 +41,15 @@ const StyledMenuItem = withStyles(() => ({
     root: {
         color: '#5b6c75',
         '&:hover': {
-            color: '#ba0019',
-            backgroundColor: alpha('#d4021d', 0.04),
+            color: '#1976d2',
+            backgroundColor: alpha('#1976d2', 0.04),
         },
     },
 }))(MenuItem)
 
 const StyledAvatar = withStyles({
     root: {
-        backgroundColor: '#F44336',
+        backgroundColor: '#1976d2',
         cursor: 'pointer',
         margin: '0 18px',
         width: '40px',
