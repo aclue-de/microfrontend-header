@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/index.scss"],"names":[],"mappings":"AAME,iBACE,eAPI,CAUN,eACE,WAAA,CACA,gBAXQ","file":"main.5bbd3dd4.chunk.css","sourcesContent":["$color: white;\n$max-width: 1200px;\n\nbody {\n  background: $color;\n\n  header {\n    background: $color;\n  }\n\n  .vertical {\n    margin: auto;\n    max-width: $max-width;\n  }\n}\n"]}
