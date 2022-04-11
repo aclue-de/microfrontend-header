@@ -87,7 +87,7 @@ export const AvatarMenu: React.FC = () => {
                 aria-haspopup="true"
                 onClick={handleClick}
             >
-                <Typography variant="body2">TR</Typography>
+                <Typography variant="body2">AC</Typography>
             </StyledAvatar>
             <StyledMenu
                 id="customized-menu"
