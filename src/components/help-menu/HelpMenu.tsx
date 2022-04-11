@@ -1,5 +1,5 @@
-import { Tooltip, ListItemText, Typography } from '@material-ui/core'
-import HelpOutlineIcon from '@material-ui/icons/HelpOutline'
+import { Tooltip, ListItemText, Typography } from '@mui/material'
+import HelpOutlineIcon from '@mui/icons-material/HelpOutline'
 import React from 'react'
 import { StyledIconButton, StyledLink, StyledMenu, StyledMenuItem } from './HelpMenuStyles'
 

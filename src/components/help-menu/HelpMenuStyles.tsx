@@ -1,4 +1,6 @@
-import { alpha, IconButton, Link, Menu, MenuItem, MenuProps, withStyles } from '@material-ui/core'
+import { alpha, IconButton, Link, Menu, MenuItem, MenuProps } from '@mui/material';
+
+import withStyles from '@mui/styles/withStyles';
 
 const StyledMenu = withStyles({
     paper: {
@@ -19,7 +21,6 @@ const StyledMenu = withStyles({
 })((props: MenuProps) => (
     <Menu
         elevation={0}
-        getContentAnchorEl={null}
         anchorOrigin={{
             vertical: 'bottom',
             horizontal: 'right',
