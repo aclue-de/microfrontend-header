@@ -1,4 +1,6 @@
-import { alpha, IconButton, Link, Menu, MenuItem, MenuProps, withStyles } from '@material-ui/core'
+import { alpha, IconButton, Link, Menu, MenuItem, MenuProps } from '@mui/material';
+
+import withStyles from '@mui/styles/withStyles';
 
 const StyledMenu = withStyles({
     paper: {

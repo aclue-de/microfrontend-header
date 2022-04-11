@@ -1,1 +1,1 @@
-export declare const theme: import("@material-ui/core").Theme;
+export declare const theme: import("@mui/material").Theme;

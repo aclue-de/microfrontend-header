@@ -1,8 +1,8 @@
-import { alpha, Avatar, Link, Typography } from '@material-ui/core'
-import ListItemText from '@material-ui/core/ListItemText'
-import Menu, { MenuProps } from '@material-ui/core/Menu'
-import MenuItem from '@material-ui/core/MenuItem'
-import { withStyles } from '@material-ui/core/styles'
+import { alpha, Avatar, Link, Typography } from '@mui/material'
+import ListItemText from '@mui/material/ListItemText'
+import Menu, { MenuProps } from '@mui/material/Menu'
+import MenuItem from '@mui/material/MenuItem'
+import withStyles from '@mui/styles/withStyles';
 import React from 'react'
 
 const StyledMenu = withStyles({

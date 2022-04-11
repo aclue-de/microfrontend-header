@@ -1,6 +1,6 @@
-import { createTheme } from "@material-ui/core";
+import { createTheme, adaptV4Theme } from "@mui/material";
 
-export const theme = createTheme({
+export const theme = createTheme(adaptV4Theme({
     typography: {
         fontFamily: 'roboto',
         button: {
@@ -104,4 +104,4 @@ export const theme = createTheme({
             },
         },
     }
-})
+}))

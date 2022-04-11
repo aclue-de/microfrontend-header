@@ -1,6 +1,8 @@
 import React from 'react'
-import { Typography, IconButton, makeStyles, withStyles, Tooltip, alpha } from '@material-ui/core'
-import { InsertEmoticon, AddCommentOutlined, NotificationsNone } from '@material-ui/icons'
+import { Typography, IconButton, Tooltip, alpha } from '@mui/material';
+import makeStyles from '@mui/styles/makeStyles';
+import withStyles from '@mui/styles/withStyles';
+import { InsertEmoticon, AddCommentOutlined, NotificationsNone } from '@mui/icons-material'
 import AclueLogo from './../../images/aclue-logo.png'
 import { HelpMenu } from '../help-menu/HelpMenu'
 import { AvatarMenu } from '../avatar-menu'
