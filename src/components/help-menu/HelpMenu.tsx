@@ -1,7 +1,7 @@
-import { Tooltip, ListItemText, Typography } from '@mui/material'
 import HelpOutlineIcon from '@mui/icons-material/HelpOutline'
+import { ListItemText, Tooltip } from '@mui/material'
 import React from 'react'
-import { StyledIconButton, StyledLink, StyledMenu, StyledMenuItem } from './HelpMenuStyles'
+import { StyledIconButton, StyledLink, StyledMenu, StyledMenuItem } from '../MenuStyles'
 
 export const HelpMenu: React.FC = () => {
     const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null)
@@ -14,14 +14,13 @@ export const HelpMenu: React.FC = () => {
     }
 
     return (
-        <div>
+        <>
             <Tooltip title="Hilfe" placement="bottom-end">
                 <StyledIconButton aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} size="medium">
                     <HelpOutlineIcon />
                 </StyledIconButton>
             </Tooltip>
             <StyledMenu
-                style={{ zIndex: 10300 }}
                 id="simple-menu"
                 anchorEl={anchorEl}
                 keepMounted
@@ -35,7 +34,7 @@ export const HelpMenu: React.FC = () => {
                     }}
                 >
                     <StyledMenuItem>
-                        <ListItemText primary={<Typography variant="body2">FAQ</Typography>} />
+                        <ListItemText primary='FAQ' />
                     </StyledMenuItem>
                 </StyledLink>
                 <StyledLink
@@ -45,12 +44,10 @@ export const HelpMenu: React.FC = () => {
                     }}
                 >
                     <StyledMenuItem>
-                        <ListItemText
-                            primary={<Typography variant="body2">Ticketübersicht</Typography>}
-                        />
+                        <ListItemText primary='Ticketübersicht' />
                     </StyledMenuItem>
                 </StyledLink>
             </StyledMenu>
-        </div>
+        </>
     )
 }

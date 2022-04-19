@@ -1,50 +1,8 @@
-import { alpha, Avatar, Link, Typography } from '@mui/material'
-import ListItemText from '@mui/material/ListItemText'
-import Menu, { MenuProps } from '@mui/material/Menu'
-import MenuItem from '@mui/material/MenuItem'
+import { Avatar, Tooltip, Typography } from '@mui/material';
+import ListItemText from '@mui/material/ListItemText';
 import withStyles from '@mui/styles/withStyles';
-import React from 'react'
-
-const StyledMenu = withStyles({
-    paper: {
-        boxShadow: '0px 2px 4px 0px #888',
-        width: '200px',
-        '& h3': {
-            margin: 0,
-            fontWeight: 'bold',
-            fontSize: '16px',
-            color: '#1976d2',
-            padding: '12px',
-        },
-        '& hr': {
-            border: 0,
-            borderTop: `1px #f6f6f6 solid`,
-        },
-    },
-})((props: MenuProps) => (
-    <Menu
-        elevation={0}
-        anchorOrigin={{
-            vertical: 'bottom',
-            horizontal: 'right',
-        }}
-        transformOrigin={{
-            vertical: -6,
-            horizontal: 'right',
-        }}
-        {...props}
-    />
-))
-
-const StyledMenuItem = withStyles(() => ({
-    root: {
-        color: '#5b6c75',
-        '&:hover': {
-            color: '#1976d2',
-            backgroundColor: alpha('#1976d2', 0.04),
-        },
-    },
-}))(MenuItem)
+import React from 'react';
+import { StyledLink, StyledMenu, StyledMenuItem } from '../MenuStyles';
 
 const StyledAvatar = withStyles({
     root: {
@@ -55,14 +13,6 @@ const StyledAvatar = withStyles({
         height: '40px',
     },
 })(Avatar)
-
-const StyledLink = withStyles({
-    root: {
-        '&:hover': {
-            textDecoration: 'none',
-        },
-    },
-})(Link)
 
 export type AvatarMenuPropTypes = {}
 
@@ -79,18 +29,19 @@ export const AvatarMenu: React.FC = () => {
     }
 
     return (
-        <div>
-            <StyledAvatar
-                className="sg-avatar"
-                aria-controls="customized-menu"
-                aria-haspopup="true"
-                onClick={handleClick}
-            >
-                <Typography variant="body2">AC</Typography>
-            </StyledAvatar>
+        <>
+            <Tooltip title="Profil" placement="bottom-end">
+                <StyledAvatar
+                    className="sg-avatar"
+                    aria-controls="customized-menu"
+                    aria-haspopup="true"
+                    onClick={handleClick}
+                >
+                    <Typography variant="body2">AC</Typography>
+                </StyledAvatar>
+            </Tooltip>
             <StyledMenu
                 id="customized-menu"
-                style={{ zIndex: 10300 }}
                 anchorEl={anchorEl}
                 keepMounted
                 open={Boolean(anchorEl)}
@@ -119,6 +70,6 @@ export const AvatarMenu: React.FC = () => {
                     </StyledMenuItem>
                 </StyledLink>
             </StyledMenu>
-        </div>
+        </>
     )
 }

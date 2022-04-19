@@ -4,9 +4,7 @@ import Header from './components/header/Header'
 import {Start} from '@aclue-de/microfrontend-startpage'
 import { ThemeProvider, Theme, StyledEngineProvider } from '@mui/material';
 import { theme } from './theme/theme';
-// import './index.css'; // Alternativ zum SCSS zeigen
-import './index.scss';
-
+import './index.css';
 
 declare module '@mui/styles/defaultTheme' {
   // eslint-disable-next-line @typescript-eslint/no-empty-interface
